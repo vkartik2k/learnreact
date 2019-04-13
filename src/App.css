@@ -1,7 +1,22 @@
-.click{
-    background-color: blue;
-    margin: 10px;
+.title{
+    color: wheat;
+    font-size: 25px;
+    font-weight: 600;
+
+
+}
+.container{
+    background-color: brown;
     text-align: center;
-    width: 100px;
-    height: 30px;
+
+}
+
+.container * {
+    margin: 10px;
+}
+
+.key{
+    color: wheat;
+    font-size: 18px;
+    font-weight: 500;
 }

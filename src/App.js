@@ -2,18 +2,17 @@ import React from 'react';
 import './App.css';
 import { SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG } from 'constants';
 
-//inline styling
+//event handling
 
 class App extends React.Component {
+
+  clicked(event){
+    console.log(event);
+  }
   
   render() {
-    let styles = {
-      container : {
-        backgroundColor : 'red'
-      }
-    }
     return (
-      React.createElement('div',{className: 'main',style : styles.container}, "Hello React")
+      <div className="click" onClick={this.clicked}>Click bait</div>
     );
   }
 }

@@ -7,7 +7,7 @@ import { SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG } from 'constants';
 class App extends React.Component {
 
   state = {
-    keywords: 'myword',
+    keywords: '',
     val : 'myval'
   }
   changeHandler(event) {
